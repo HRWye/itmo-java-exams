@@ -41,5 +41,6 @@ public class Application {
         fitnessClub.informationAboutEveryone();
 
         fitnessClub.fitnessIsClosing();
+
     }
 }
