@@ -1,10 +1,5 @@
 package fitness;
 
-import java.time.LocalDate;
-import java.time.LocalTime;
-import java.time.Month;
-import java.time.temporal.ChronoUnit;
-
 public class Application {
     public static void main(String[] args) {
 
@@ -46,11 +41,5 @@ public class Application {
         fitnessClub.informationAboutEveryone();
 
         fitnessClub.fitnessIsClosing();
-
-        /*LocalDate first = LocalDate.of(2018, Month.JANUARY, 2); // 2 января 2018
-        LocalDate second = LocalDate.of(2022, Month.FEBRUARY, 12); // 12 февраля 2022
-        long between = ChronoUnit.YEARS.between(first, second);
-        System.out.println("количество лет между 2 января 2018 и 12 февраля 2022 = " + between);*/
-
     }
 }
